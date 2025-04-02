@@ -1,0 +1,35 @@
+body {
+    background-image: url('train.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    color: white; 
+    font-family: Arial, sans-serif; 
+}
+
+
+button {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    margin: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.7); 
+    color: black; 
+}
+
+
+h1, h2 {
+    text-align: center;
+}
